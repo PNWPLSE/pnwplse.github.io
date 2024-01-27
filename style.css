@@ -18,8 +18,8 @@ header h1 {
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi) {
     header h1 {
-        background: url('logo/header@2x.png') no-repeat;
-        background-size: 300px 72px;
+        background: url('logo/header.png') no-repeat;
+        background-size: 230px 75px;
     }
 }
 header nav {display: inline-block; vertical-align: top; clear: right;
@@ -29,7 +29,7 @@ header li {display: inline-block; width: 33px; margin: 5px 30px; line-height: 1.
 a {color: #014421; text-decoration: none;}
 a:hover {color: #014421; text-decoration: underline;}
 
-section { clear: left; }
+section { clear: left; padding: 0 0 0 }
 
 p, dd, blockquote {
     padding: 0; margin: 20px 0; line-height: 1.4;
