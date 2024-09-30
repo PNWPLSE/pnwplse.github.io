@@ -213,3 +213,8 @@ img[alt=visitor-photo] {
 .meetings td:first-child { width: auto; text-align: left; }
 
 .figure { margin: 1em auto; }
+
+.banner {
+    background: #f7d992;
+    padding: 20px;
+}
