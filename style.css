@@ -33,7 +33,7 @@ section { clear: left; padding: 0 0 0 }
 
 p, dd, blockquote {
     padding: 0; margin: 20px 0; line-height: 1.4;
-    text-rendering: optimizeLegibility; text-align: justify;
+    text-rendering: optimizeLegibility;
     hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto;}
 }
 li p {
