@@ -22,22 +22,43 @@ only screen and (min-resolution: 192dpi) {
         background-size: 230px 75px;
     }
 }
-header nav {display: inline-block; vertical-align: top; clear: right;
-           list-style: none inside;
-           width: 290px; margin: 0; padding: 5px 0 0;}
-header li {display: inline-block; width: 33px; margin: 5px 30px; line-height: 1.25; }
+
+header nav {
+  display: inline-block;
+  vertical-align: top;
+  clear: right;
+  list-style: none inside;
+  width: 290px;
+  margin: 0;
+  padding: 5px 0 0;
+}
+/* nav ul redundant, required for accessibility */
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+header nav li {
+  display: inline-block;
+  width: 33px;
+  margin: 5px 30px;
+  line-height: 1.25;
+}
 a {color: #014421; font-weight: bold; text-decoration: none;}
 a:hover {color: #014421; text-decoration: underline;}
 
 section { clear: left; padding: 0 0 0 }
 
 p, dd, blockquote {
-    padding: 0; margin: 20px 0; line-height: 1.4;
-    text-rendering: optimizeLegibility;
-    hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto;}
+  padding: 0;
+  margin: 20px 0;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
 }
 li p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 emph { font-weight: 800}
